@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         case "4" :result.text = "\([arc4random()%6+1,arc4random()%6+1,arc4random()%6+1,arc4random()%6+1])"
         case "5" :result.text = "\([arc4random()%6+1,arc4random()%6+1,arc4random()%6+1,arc4random()%6+1,arc4random()%6+1])"
         case "6" :result.text = "\([arc4random()%6+1,arc4random()%6+1,arc4random()%6+1,arc4random()%6+1,arc4random()%6+1,arc4random()%6+1])"
-        default :result.text = "个数必须是1-6"//如果case情况都不满足
+        default :result.text = "个数必须是1-6"
         }
     }
     
