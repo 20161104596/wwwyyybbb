@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var result: UITextField!
     
     
+
+    
     @IBOutlet weak var ttt: UITextField!
     
 
@@ -31,6 +33,8 @@ class ViewController: UIViewController {
         default :result.text = "个数必须是1-6"//如果case情况都不满足
         }
     }
+    
+
     
     @IBAction func w1(_ sender: Any) {
         ttt.text = " 前进一步 "
